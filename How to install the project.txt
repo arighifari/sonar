@@ -1,0 +1,17 @@
+-mendownload composer apabila belom terdapat composer
+-install laravel apabila belom terinstall
+
+seteleh semua terinstall lakukan hal ini
+-copy file .env.example dan ubah namanya menjadi .env
+-jalankan command line "php artisan key:generate" untuk menggenerate app key
+-buatlah database baru
+-isi nama database tersebut pada file .env
+-migrasi database dengan command line "php artisan migrate"
+-lalu jalankan laravel denga command line "php artisan serve"
+
+Cara pengetesan aplikasi
+-buka pada browser "localhost:8000"
+-apabila isi halaman masih kosong maka pilihlah tombol
+ "Tambah Berita Dari RSS Link" untuk menambahkan berita kedatabase dari rss link
+ "Tambah Berita Dari xpath" untuk menambahkan berita kedatabase dari xpath
+-setelah berita berhasil ditambahkan maka pada halaman akan muncul berita yang ditambahkan.
